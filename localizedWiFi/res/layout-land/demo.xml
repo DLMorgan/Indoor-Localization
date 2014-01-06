@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="center" 
+    android:orientation="vertical"  >
+
+    <TextView
+        android:id="@+id/lbl_your_name" 
+        android:text="Enter Step Info" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:textSize="25sp" />
+    
+<LinearLayout
+    android:id="@+id/enter_name"
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1"
+        >
+
+    <EditText
+        android:id="@+id/enter_steps"
+        android:layout_width="50sp"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="number" />
+
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" 
+	    android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+	    >
+    
+    <TextView
+        android:id="@+id/feet_str" 
+        android:text="steps" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+	    
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" 
+        android:layout_weight="1"
+	    >
+
+	<EditText
+        android:id="@+id/enter_step_length"
+        android:layout_width="50sp"  
+        android:layout_height="wrap_content" 
+        android:inputType="numberDecimal"
+        android:imeOptions="actionDone" />
+
+	</LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+	    >
+	    
+    <TextView
+        android:id="@+id/inches_str" 
+        android:text="meters" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+	    
+	</LinearLayout>
+</LinearLayout>
+</LinearLayout>

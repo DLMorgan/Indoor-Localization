@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/edit_name"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_gravity="center" android:orientation="vertical"  >
+
+    <TextView
+        android:id="@+id/lbl_your_name"
+        android:text="@string/calibrate_msg1" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <TextView
+        android:id="@+id/calib_msg1"
+        android:text="@string/calibrate_msg2" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+      
+    <ProgressBar
+        android:id="@+id/calid_msg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+</LinearLayout>
